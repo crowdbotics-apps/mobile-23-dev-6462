@@ -23,7 +23,6 @@ export function* mainSaga() {
 
 
     //@BlueprintReduxSagaMainInsertion
-CalendarView16507Saga,
 CalendarView16501Saga,
 CalendarSaga,
 EmailAuthSaga,
