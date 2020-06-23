@@ -167,6 +167,19 @@ export class _Blank extends React.Component {
       >
         Button
       </Button>
+      <Slider
+        value={50}
+        minimumValue={0}
+        maximumValue={100}
+        step={1}
+        disabled={false}
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid"
+        }}
+      />
     </View>
   )
 }
